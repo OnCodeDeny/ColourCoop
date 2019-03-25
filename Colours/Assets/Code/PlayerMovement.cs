@@ -43,8 +43,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         inputDirection = new Vector2(Input.GetAxisRaw(horaxis), Input.GetAxisRaw(veraxis));
-        //inputDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * inputDirection;
-        //inputDirection.Normalize();
+        inputDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * inputDirection;
+        inputDirection.Normalize();
 
         float accel = inputDirection.sqrMagnitude > 0 ? acceleration : decelleration;
         rb.velocity = Vector3.Lerp(rb.velocity, inputDirection * speed, Time.fixedDeltaTime * accel);
@@ -52,7 +52,8 @@ public class PlayerMovement : MonoBehaviour
         if (inputDirection.sqrMagnitude > 0)
         {
             Vector3 oldEulerAngles = transform.eulerAngles;
-            //transform.LookAt2D(transform.position + inputDirection);
+            Vector3 lookAtTransform = new Vector3(transform.position.x + inputDirection.x, 0, transform.position.y + inputDirection.y);
+            transform.LookAt(lookAtTransform);
             eulerAngles.y = transform.eulerAngles.y;
             transform.eulerAngles = oldEulerAngles;
         }
