@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1841143411}
-  HorizontalDstX: 0.5
-  VerticalDstX: 0.5
+  HorizontalDstX: 2
+  VerticalDstX: 2
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
   focusAreaSize: {x: 3, y: 3}
@@ -701,8 +701,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1950760865}
-  HorizontalDstX: 0.5
-  VerticalDstX: 0.5
+  HorizontalDstX: 2
+  VerticalDstX: 2
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
   focusAreaSize: {x: 3, y: 3}
@@ -716,9 +716,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1841143410}
   - component: {fileID: 1841143409}
-  - component: {fileID: 1841143412}
   - component: {fileID: 1841143411}
   - component: {fileID: 1841143413}
+  - component: {fileID: 1841143412}
   - component: {fileID: 1841143414}
   m_Layer: 0
   m_Name: Red Circle
@@ -802,8 +802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 100
-  decelleration: 100
+  acceleration: 6
+  decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}
 --- !u!50 &1841143412
@@ -941,8 +941,8 @@ GameObject:
   - component: {fileID: 1950760867}
   - component: {fileID: 1950760866}
   - component: {fileID: 1950760865}
-  - component: {fileID: 1950760864}
   - component: {fileID: 1950760868}
+  - component: {fileID: 1950760864}
   - component: {fileID: 1950760869}
   m_Layer: 0
   m_Name: Blue Circle
@@ -985,8 +985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 100
-  decelleration: 100
+  acceleration: 6
+  decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}
 --- !u!212 &1950760866
