@@ -153,10 +153,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1841143411}
   HorizontalDstX: 0.5
-  VerticalDstX: 1
+  VerticalDstX: 0.5
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
-  focusAreaSize: {x: 2, y: 4}
+  focusAreaSize: {x: 3, y: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -700,12 +700,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3b0d57b1b562e84b9930fd633ecd216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1841143411}
+  target: {fileID: 1950760865}
   HorizontalDstX: 0.5
-  VerticalDstX: 1
+  VerticalDstX: 0.5
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
-  focusAreaSize: {x: 2, y: 4}
+  focusAreaSize: {x: 3, y: 3}
 --- !u!1 &1841143408
 GameObject:
   m_ObjectHideFlags: 0
