@@ -152,11 +152,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1841143411}
-  HorizontalDstX: 0.5
-  VerticalDstX: 1
+  HorizontalDstX: 2
+  VerticalDstX: 2
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
-  focusAreaSize: {x: 2, y: 4}
+  focusAreaSize: {x: 3, y: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -539,6 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorid: 1
+  playerTag: 
 --- !u!212 &1238718323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -821,11 +822,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1841143411}
-  HorizontalDstX: 0.5
-  VerticalDstX: 1
+  HorizontalDstX: 2
+  VerticalDstX: 2
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
-  focusAreaSize: {x: 2, y: 4}
+  focusAreaSize: {x: 3, y: 3}
 --- !u!1 &1767755251
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorid: 1
+  playerTag: 
 --- !u!212 &1767755254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -956,8 +958,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1841143410}
   - component: {fileID: 1841143409}
-  - component: {fileID: 1841143412}
   - component: {fileID: 1841143411}
+  - component: {fileID: 1841143412}
   - component: {fileID: 1841143413}
   - component: {fileID: 1841143414}
   m_Layer: 8
@@ -1042,8 +1044,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 100
-  decelleration: 100
+  acceleration: 6
+  decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}
 --- !u!50 &1841143412
@@ -1225,8 +1227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 100
-  decelleration: 100
+  acceleration: 6
+  decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}
 --- !u!212 &1950760866
