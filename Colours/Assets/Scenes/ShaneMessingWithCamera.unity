@@ -187,7 +187,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2359
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 1238718323}
   - component: {fileID: 1238718322}
   - component: {fileID: 1238718321}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Blue Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1591
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -821,7 +821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3b0d57b1b562e84b9930fd633ecd216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1841143411}
+  target: {fileID: 1950760865}
   HorizontalDstX: 2
   VerticalDstX: 2
   HorizontalSmoothTime: 1
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 1767755254}
   - component: {fileID: 1767755253}
   - component: {fileID: 1767755252}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Red Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 6
+  acceleration: 9
   decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}
@@ -1227,7 +1227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  acceleration: 6
+  acceleration: 9
   decelleration: 12
   c2d: {fileID: 0}
   inputDirection: {x: 0, y: 0}

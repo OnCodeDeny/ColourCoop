@@ -39,13 +39,22 @@ public class PlayerMovement : MonoBehaviour
             veraxis = "Vertical2";
         }
     }
-
-    private void FixedUpdate()
+    bool hasHandledInputThisFrame = false;
+    void HandleInput(bool isFixedUpdate)
     {
+        bool hadAlreadyHandled = hasHandledInputThisFrame;
+        hasHandledInputThisFrame = isFixedUpdate;
+        if (hadAlreadyHandled)
+            return;
         inputDirection = new Vector2(Input.GetAxisRaw(horaxis), Input.GetAxisRaw(veraxis));
         inputDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * inputDirection;
         inputDirection.Normalize();
+    }
 
+
+    private void FixedUpdate()
+    {
+        HandleInput(true);
         float accel = inputDirection.sqrMagnitude > 0 ? acceleration : decelleration;
         rb.velocity = Vector3.Lerp(rb.velocity, inputDirection * speed, Time.fixedDeltaTime * accel);
 
@@ -61,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        HandleInput(false);
         Vector3 euler = transform.eulerAngles;
         euler.y = Mathf.LerpAngle(euler.y, eulerAngles.y, Time.deltaTime * 15f);
         transform.eulerAngles = euler;

@@ -78,8 +78,6 @@ public class CameraFollow : MonoBehaviour
         focusPostion += new Vector2(1 * currentHorizontalX, 1 * currentVerticalX);
 
         transform.position = (Vector3)focusPostion + Vector3.forward * -10;
-
-        transform.position = (Vector3)focusPostion + Vector3.forward * -10;
     }
 
     private void OnDrawGizmos()
