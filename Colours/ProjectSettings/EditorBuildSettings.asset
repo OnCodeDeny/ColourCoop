@@ -9,18 +9,21 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Main Scene.unity
-    guid: beb191bc81959004e8d4be4614a2137f
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: ea093382ea4b68646b3b79aa26682f81
-  - enabled: 1
-    path: Assets/Scenes/ShaneMessingWithCamera.unity
-    guid: 5e0d93db554095e419466eb0e954c7d4
+    path: Assets/Scenes/StartScreen.unity
+    guid: 8c62eda0a7ea24b47b94102fb5b38960
   - enabled: 1
     path: Assets/Scenes/StoryCutsceneTest.unity
     guid: f6ca5c84427be9f4388ff26e2d938fae
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Main Scene.unity
+    guid: beb191bc81959004e8d4be4614a2137f
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: ea093382ea4b68646b3b79aa26682f81
+  - enabled: 0
+    path: Assets/Scenes/ShaneMessingWithCamera.unity
+    guid: 5e0d93db554095e419466eb0e954c7d4
+  - enabled: 0
     path: Assets/Scenes/LeannLevelDesign.unity
     guid: 332c0c6afa7d41b4ab9aef4cec358f97
   m_configObjects: {}

@@ -11,6 +11,7 @@ TagManager:
   - Teleporter
   - RedGoal
   - BlueGoal
+  - PurpleSwitch
   layers:
   - Default
   - TransparentFX

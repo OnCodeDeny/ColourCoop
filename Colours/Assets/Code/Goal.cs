@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
     public bool RedPresent;
     public bool BluePresent;
+    public string SceneName;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -39,6 +41,7 @@ public class Goal : MonoBehaviour
         if (RedPresent == true && BluePresent == true)
         {
             Debug.Log("Next scene");
+            SceneManager.LoadScene(SceneName);
         }
     }
 }

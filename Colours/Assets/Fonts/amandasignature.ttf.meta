@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf0535c1d927eb64bbcc48e70764bf3b
+guid: d4e04940aa80e894d965b88c03b81974
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,11 +8,10 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Angellife
+  fontName: Amanda Signature
   fontNames:
-  - Angellife
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 9eb3faa8507cbb248954be2637c09c5d, type: 3}
+  - Amanda Signature
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
