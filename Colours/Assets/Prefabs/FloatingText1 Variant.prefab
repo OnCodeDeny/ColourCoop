@@ -72,7 +72,7 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Once both players are in their respective
 
-        zones, you will be able to progress'
+        zones, press ''g'' to progress'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c66721791f56c248aa3d2b957885b12, type: 3}

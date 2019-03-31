@@ -40,8 +40,11 @@ public class Goal : MonoBehaviour
     {
         if (RedPresent == true && BluePresent == true)
         {
-            Debug.Log("Next scene");
-            SceneManager.LoadScene(SceneName);
+            if (Input.GetButtonDown("GoalLoad"))
+            {
+                Debug.Log("Next scene");
+                SceneManager.LoadScene(SceneName);
+            }
         }
     }
 }
