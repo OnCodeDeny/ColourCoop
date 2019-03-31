@@ -9,6 +9,8 @@ TagManager:
   - Laser
   - Enemy
   - Teleporter
+  - RedGoal
+  - BlueGoal
   layers:
   - Default
   - TransparentFX
