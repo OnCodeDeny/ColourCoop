@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bf0535c1d927eb64bbcc48e70764bf3b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Angellife
+  fontNames:
+  - Angellife
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9eb3faa8507cbb248954be2637c09c5d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
