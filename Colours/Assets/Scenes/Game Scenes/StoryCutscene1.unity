@@ -2426,7 +2426,7 @@ MonoBehaviour:
   - {fileID: 1028793261}
 --- !u!114 &1028793256
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2447,7 +2447,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793257
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2475,7 +2475,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793258
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2496,7 +2496,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793259
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2523,7 +2523,7 @@ MonoBehaviour:
   - {fileID: 1028793256}
 --- !u!114 &1028793260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2550,7 +2550,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793261
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2571,7 +2571,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793262
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3846,7 +3846,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2076671472}
   - component: {fileID: 2076671471}
-  - component: {fileID: 2076671470}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3854,14 +3853,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2076671470
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076671469}
-  m_Enabled: 1
 --- !u!20 &2076671471
 Camera:
   m_ObjectHideFlags: 0
