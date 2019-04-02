@@ -10,8 +10,11 @@ public class CameraFollow : MonoBehaviour
     public float HorizontalSmoothTime;
     public float verticalSmoothTime;
     public Vector2 focusAreaSize;
+    public Vector2 bottomLeftCorner;
+    public Vector2 levelsize;
 
     FocusArea focusArea;
+    LevelArea levelArea;
 
     float currentHorizontalX;
     float currentVerticalX;
@@ -28,6 +31,7 @@ public class CameraFollow : MonoBehaviour
     private void Start()
     {
         focusArea = new FocusArea(target.c2d.bounds, focusAreaSize);
+        levelArea = new LevelArea(bottomLeftCorner, levelsize);
     }
 
     private void LateUpdate()
@@ -77,13 +81,18 @@ public class CameraFollow : MonoBehaviour
 
         focusPostion += new Vector2(1 * currentHorizontalX, 1 * currentVerticalX);
 
-        transform.position = (Vector3)focusPostion + Vector3.forward * -10;
+        //transform.position = (Vector3)focusPostion + Vector3.forward * -10;
+        transform.position = new Vector3(Mathf.Clamp(focusPostion.x, levelArea.left+4, levelArea.right - 4), Mathf.Clamp(focusPostion.y, levelArea.bottom + 4, levelArea.top - 4 ), -10);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(0, 0, 1, 0.5f);
         Gizmos.DrawCube(focusArea.center, focusAreaSize);
+        Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)bottomLeftCorner);
+        Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)bottomLeftCorner);
+        Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)levelArea.topRightCorner);
+        Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)levelArea.topRightCorner);
     }
 
     struct FocusArea
@@ -132,6 +141,25 @@ public class CameraFollow : MonoBehaviour
             top += shiftY;
             center = new Vector2((left + right) / 2, (top + bottom) / 2);
             velocity = new Vector2(shiftX, shiftY);
+        }
+    }
+
+    struct LevelArea
+    {
+        public float left, right;
+        public float top, bottom;
+        public Vector2 topLeftCorner;
+        public Vector2 topRightCorner;
+        public Vector2 bottomRightCorner;
+        public LevelArea(Vector2 bottomLeftCorner,  Vector2 size)
+        {
+            left = bottomLeftCorner.x;
+            right = bottomLeftCorner.x + size.x;
+            bottom = bottomLeftCorner.y;
+            top = bottomLeftCorner.y + size.y;
+            topLeftCorner = new Vector2(left, top);
+            topRightCorner = new Vector2(right, top);
+            bottomRightCorner = new Vector2(right, bottom);
         }
     }
 }
