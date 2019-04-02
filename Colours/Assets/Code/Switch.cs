@@ -25,7 +25,7 @@ public class Switch : MonoBehaviour
     {
         if (wall.layer == 11)
         {
-            if ((other.gameObject.tag == "Player1" || other.gameObject.tag == "Player2") && Input.GetButtonDown("SwitchColour"))
+            if ((other.gameObject.tag == "Player1" && Input.GetButtonDown("P1Teleport")) || (other.gameObject.tag == "Player2" && Input.GetButtonDown("P2Teleport")))
             {
                 wall.layer = 10;
                 wallColour.color = new Color(1, 0.3254f, 0.3254f, 1);
@@ -33,7 +33,7 @@ public class Switch : MonoBehaviour
         }
         else if (wall.layer == 10)
         {
-            if ((other.gameObject.tag == "Player1" || other.gameObject.tag == "Player2") && Input.GetButtonDown("SwitchColour"))
+            if ((other.gameObject.tag == "Player1" && Input.GetButtonDown("P1Teleport")) || (other.gameObject.tag == "Player2" && Input.GetButtonDown("P2Teleport")))
             {
                 wall.layer = 11;
                 wallColour.color = new Color(0.3515f, 0.3254f, 1, 1);
