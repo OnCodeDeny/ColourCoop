@@ -1040,6 +1040,8 @@ MonoBehaviour:
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
   focusAreaSize: {x: 3, y: 3}
+  bottomLeftCorner: {x: -10, y: -12}
+  levelsize: {x: 16.5, y: 10.5}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3266,6 +3268,8 @@ MonoBehaviour:
   HorizontalSmoothTime: 1
   verticalSmoothTime: 1
   focusAreaSize: {x: 3, y: 3}
+  bottomLeftCorner: {x: -10, y: -12}
+  levelsize: {x: 16.5, y: 10.5}
 --- !u!1 &1601851686
 GameObject:
   m_ObjectHideFlags: 0
