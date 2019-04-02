@@ -40,11 +40,17 @@ public class Goal : MonoBehaviour
     {
         if (RedPresent == true && BluePresent == true)
         {
-            if (Input.GetButtonDown("GoalLoad"))
-            {
-                Debug.Log("Next scene");
-                SceneManager.LoadScene(SceneName);
-            }
+
+                StartCoroutine("DelayLoadLevel");
+            
         }
     }
+
+    IEnumerator DelayLoadLevel()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(SceneName);
+
+    }
+
 }
