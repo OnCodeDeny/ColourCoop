@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 322845530}
   - component: {fileID: 322845529}
   m_Layer: 10
-  m_Name: Red Door (1)
+  m_Name: Red Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,6 +233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorid: 1
   playerTag: 
+  particalPrefab: {fileID: 4303299579614344725, guid: 238f3bcf99b435a4f826b23be0e6c613,
+    type: 3}
 --- !u!4 &322845531
 Transform:
   m_ObjectHideFlags: 0
@@ -518,7 +520,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &545534557
 GameObject:
@@ -902,7 +904,7 @@ PrefabInstance:
     - target: {fileID: 5859036068273612123, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5859036068273612123, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
@@ -1024,7 +1026,7 @@ GameObject:
   - component: {fileID: 1238718322}
   - component: {fileID: 1238718321}
   m_Layer: 11
-  m_Name: Blue Door
+  m_Name: Blue Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1070,6 +1072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorid: 1
   playerTag: 
+  particalPrefab: {fileID: 0}
 --- !u!212 &1238718323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1208,6 +1211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textPrefab: {fileID: 5406933516609954361, guid: 0c66721791f56c248aa3d2b957885b12,
     type: 3}
+  message: "Blue, press 'f' \nwhile on a switch to \nactivate/deactivate walls."
+  showTime: 3
 --- !u!58 &1396311733
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1237,7 +1242,7 @@ GameObject:
   - component: {fileID: 1404771863}
   - component: {fileID: 1404771862}
   m_Layer: 11
-  m_Name: Blue Door (1)
+  m_Name: Blue Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1283,6 +1288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorid: 1
   playerTag: 
+  particalPrefab: {fileID: 4303299579614344725, guid: 238f3bcf99b435a4f826b23be0e6c613,
+    type: 3}
 --- !u!4 &1404771864
 Transform:
   m_ObjectHideFlags: 0
@@ -1681,7 +1688,7 @@ GameObject:
   - component: {fileID: 1767755253}
   - component: {fileID: 1767755252}
   m_Layer: 10
-  m_Name: Red Door
+  m_Name: Red Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1727,6 +1734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorid: 1
   playerTag: 
+  particalPrefab: {fileID: 0}
 --- !u!212 &1767755254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1820,7 +1828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eafe009bee3ad848a9f4103a59e7baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallColour: {fileID: 322845532}
   wall: {fileID: 322845528}
 --- !u!58 &1773741903
 CircleCollider2D:
@@ -1994,8 +2001,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac256ab7587591348b157fbfa6081e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textPrefab: {fileID: 5130805121996130899, guid: c742de098f9d9e54388f02771e1377c9,
+  textPrefab: {fileID: 5406933516609954361, guid: 0c66721791f56c248aa3d2b957885b12,
     type: 3}
+  message: "Once both players are \nin their respective zones, \npress 'g' to progress"
+  showTime: 3
 --- !u!58 &1794978521
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2280,8 +2289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac256ab7587591348b157fbfa6081e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textPrefab: {fileID: 4728988359010831995, guid: a7847cdc49c033542a10ac78c754f4b0,
+  textPrefab: {fileID: 5406933516609954361, guid: 0c66721791f56c248aa3d2b957885b12,
     type: 3}
+  message: "Red, press 'p' \nwhile on a switch to \nactivate/deactivate walls."
+  showTime: 3
 --- !u!58 &1930540065
 CircleCollider2D:
   m_ObjectHideFlags: 0
