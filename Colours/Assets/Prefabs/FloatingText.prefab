@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8090430729359692089}
   - component: {fileID: 2747352927677530489}
   - component: {fileID: 4109319890183555307}
-  - component: {fileID: 901899133386189025}
   m_Layer: 0
   m_Name: FloatingText
   m_TagString: Untagged
@@ -78,13 +77,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5406933516609954361}
-  m_Text: 'Press ''n'' while
-
-    on a switch to
-
-    change the state
-
-    of walls.'
+  m_Text: "Blue, press 'f' \nwhile on a switch\nto activate/deactivate walls."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -98,16 +91,3 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
---- !u!114 &901899133386189025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5406933516609954361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b212f6765b7a8408b5a2e239ec112c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroyTime: 3
