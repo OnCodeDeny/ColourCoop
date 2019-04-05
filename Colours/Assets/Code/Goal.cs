@@ -1,56 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
-    public bool RedPresent;
-    public bool BluePresent;
-    public string SceneName;
+    public bool isGoalReached;
+    public int goalID;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player1")
+        if (goalID == 1)
         {
-            RedPresent = true;
-            Debug.Log("Red");
+            if (other.gameObject.tag == "Player1")
+            {
+                isGoalReached = true;
+                Debug.Log("Red");
+            }
         }
-        if (other.gameObject.tag == "Player2")
+        else if (goalID == 2)
         {
-            BluePresent = true;
-            Debug.Log("Blue");
+            if (other.gameObject.tag == "Player2")
+            {
+                isGoalReached = true;
+                Debug.Log("Blue");
+            }
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player1")
+        if (goalID == 1)
         {
-            RedPresent = false;
+            if (other.gameObject.tag == "Player1")
+            {
+                isGoalReached = false;
+                Debug.Log("Red");
+            }
         }
-        if (other.gameObject.tag == "Player2")
+        else if (goalID == 2)
         {
-            BluePresent = false;
-            Debug.Log("Off");
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if (RedPresent == true && BluePresent == true)
-        {
-
-                StartCoroutine("DelayLoadLevel");
-            
+            if (other.gameObject.tag == "Player2")
+            {
+                isGoalReached = false;
+                Debug.Log("Blue");
+            }
         }
     }
-
-    IEnumerator DelayLoadLevel()
-    {
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(SceneName);
-
-    }
-
 }
