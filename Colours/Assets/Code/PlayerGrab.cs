@@ -53,6 +53,7 @@ public class PlayerGrab : MonoBehaviour
     {
         if (Input.GetButtonDown(grabButtonName))
         {
+            Debug.Log(collision.gameObject.tag);
             if (collision.gameObject.tag == "Teleporter")
             {
                 isGrabbing = true;

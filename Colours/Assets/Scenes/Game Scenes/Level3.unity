@@ -1353,6 +1353,16 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3257323638900772552, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3257323639093020823, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6245803a8144c304792c814296b528a7, type: 3}
 --- !u!1001 &711740487
@@ -3953,10 +3963,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport3
       objectReference: {fileID: 0}
+    - target: {fileID: 3257323638900772552, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
     - target: {fileID: 3257323639093020823, guid: 6245803a8144c304792c814296b528a7,
         type: 3}
       propertyPath: m_Name
       value: Teleport4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3257323639093020823, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
       objectReference: {fileID: 0}
     - target: {fileID: 3257323638900772556, guid: 6245803a8144c304792c814296b528a7,
         type: 3}
