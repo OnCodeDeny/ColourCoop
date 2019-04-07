@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4831214729113029197}
   - component: {fileID: 4831214729113029298}
   - component: {fileID: 4831214729113029299}
-  - component: {fileID: 4831214729113029296}
+  - component: {fileID: 5512499664077506359}
   m_Layer: 0
   m_Name: Red Camera
   m_TagString: MainCamera
@@ -95,11 +95,16 @@ MonoBehaviour:
   focusAreaSize: {x: 3, y: 3}
   levelBLCorner: {fileID: 0}
   levelTRCorner: {fileID: 0}
---- !u!81 &4831214729113029296
-AudioListener:
+--- !u!114 &5512499664077506359
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4831214729113029297}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0

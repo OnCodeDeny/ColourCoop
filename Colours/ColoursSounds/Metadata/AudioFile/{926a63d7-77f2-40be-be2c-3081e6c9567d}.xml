@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{926a63d7-77f2-40be-be2c-3081e6c9567d}">
+        <property name="assetPath">
+            <value>411514__deleted-user-2731495__slowed-down-piano-drums.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>47.307052154195013</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3ff81f14-2808-4055-80a2-265c7b3e3f5b}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 991755504114273654}
   - component: {fileID: 991755504114273652}
   - component: {fileID: 991755504114273653}
-  - component: {fileID: 991755504114273655}
+  - component: {fileID: 7710701003805105658}
   m_Layer: 0
   m_Name: Blue Camera
   m_TagString: Untagged
@@ -95,11 +95,16 @@ MonoBehaviour:
   focusAreaSize: {x: 3, y: 3}
   levelBLCorner: {fileID: 0}
   levelTRCorner: {fileID: 0}
---- !u!81 &991755504114273655
-AudioListener:
+--- !u!114 &7710701003805105658
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991755504114273657}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0

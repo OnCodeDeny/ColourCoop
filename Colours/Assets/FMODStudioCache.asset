@@ -13,38 +13,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114641747836148102}
-  - {fileID: 114258202111954894}
+  - {fileID: 114987651016033594}
+  - {fileID: 114183331236374878}
   EditorEvents:
-  - {fileID: 114488137862483490}
-  - {fileID: 114404600635077914}
+  - {fileID: 114546317891281964}
+  - {fileID: 114032113762292022}
+  - {fileID: 114024380769307128}
+  - {fileID: 114999382002196328}
   MasterBanks:
-  - {fileID: 114258202111954894}
+  - {fileID: 114183331236374878}
   StringsBanks:
-  - {fileID: 114641747836148102}
-  stringsBankWriteTime: 636898060342549314
+  - {fileID: 114987651016033594}
+  stringsBankWriteTime: 636902514250852997
   cacheVersion: 3
---- !u!114 &114258202111954894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: C:\Users\sterlile\Documents\GitHub\ColorCoop\Colours\Colours\Build\Desktop\Master
-    Bank.bank
-  lastModified: 636898060342468545
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 712736
-  Exists: 1
---- !u!114 &114289795123662334
+--- !u!114 &114024380769307128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,18 +38,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Story Background Music
-  guid: a7149fe652a2e54981d8c12312dd7233
+  Path: event:/CutsceneMusic
+  guid: f8177f226d62db4f86efadcafef2dd65
   Banks:
-  - {fileID: 114580651148091136}
+  - {fileID: 114183331236374878}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 17295
---- !u!114 &114404600635077914
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47307
+--- !u!114 &114032113762292022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,64 +61,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Story Background Music
-  guid: a7149fe652a2e54981d8c12312dd7233
+  Path: event:/StartScreenMusic
+  guid: ec4a526bdd91394ab41c358c710fd3f2
   Banks:
-  - {fileID: 114258202111954894}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 17295
---- !u!114 &114488137862483490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Gameplay Background Music
-  guid: 5240340358c24346a5b89f3c0953a61a
-  Banks:
-  - {fileID: 114258202111954894}
+  - {fileID: 114183331236374878}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 47307
---- !u!114 &114539791745590602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Gameplay Background Music
-  guid: 5240340358c24346a5b89f3c0953a61a
-  Banks:
-  - {fileID: 114580651148091136}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 47307
---- !u!114 &114580651148091136
+  Length: 30110
+--- !u!114 &114181674723246344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +92,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 712736
   Exists: 1
---- !u!114 &114641747836148102
+--- !u!114 &114183331236374878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,14 +104,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: Colours\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636898060342549314
+  Path: C:\Users\sterlile\Documents\GitHub\ColorCoop\Colours\ColoursSounds\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636902514250802760
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 800
+    Value: 881888
   Exists: 1
---- !u!114 &114932172852352512
+--- !u!114 &114242271443521666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Gameplay Background Music
+  guid: 5240340358c24346a5b89f3c0953a61a
+  Banks:
+  - {fileID: 114181674723246344}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 47307
+--- !u!114 &114432956204271272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,3 +154,91 @@ MonoBehaviour:
   - Name: Desktop
     Value: 800
   Exists: 1
+--- !u!114 &114546317891281964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/InGameMusic
+  guid: 3d9a93527b63994fadd1df37569a59de
+  Banks:
+  - {fileID: 114183331236374878}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7389
+--- !u!114 &114728383664765602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Story Background Music
+  guid: a7149fe652a2e54981d8c12312dd7233
+  Banks:
+  - {fileID: 114181674723246344}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 17295
+--- !u!114 &114987651016033594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: ColoursSounds\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636902514250852997
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 864
+  Exists: 1
+--- !u!114 &114999382002196328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MouseOver
+  guid: 691ac65417ae8345ac85a17208b53495
+  Banks:
+  - {fileID: 114183331236374878}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47

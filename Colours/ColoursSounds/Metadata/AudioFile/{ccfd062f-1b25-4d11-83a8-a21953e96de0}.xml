@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{ccfd062f-1b25-4d11-83a8-a21953e96de0}">
+        <property name="assetPath">
+            <value>464897__snapper4298__acid-bass-loop-127-5bpm.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>30.110476190476192</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3ff81f14-2808-4055-80a2-265c7b3e3f5b}</destination>
+        </relationship>
+    </object>
+</objects>
