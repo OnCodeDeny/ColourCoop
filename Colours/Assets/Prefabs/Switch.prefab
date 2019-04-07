@@ -111,4 +111,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wall: {fileID: 0}
   enabledColor: {r: 0.06665218, g: 0.031043481, b: 0.084, a: 1}
-  lerpTimer: 3
+  lerpTimer: 0.5

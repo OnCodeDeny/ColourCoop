@@ -1064,6 +1064,11 @@ PrefabInstance:
       propertyPath: wall
       value: 
       objectReference: {fileID: 1404771861}
+    - target: {fileID: 2714811464635060083, guid: 5cee20500b1db0b438bf038323f04fd1,
+        type: 3}
+      propertyPath: lerpTimer
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cee20500b1db0b438bf038323f04fd1, type: 3}
 --- !u!4 &1885034679 stripped
@@ -1611,6 +1616,11 @@ PrefabInstance:
       propertyPath: wall
       value: 
       objectReference: {fileID: 1756014419}
+    - target: {fileID: 2714811464635060083, guid: 5cee20500b1db0b438bf038323f04fd1,
+        type: 3}
+      propertyPath: lerpTimer
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cee20500b1db0b438bf038323f04fd1, type: 3}
 --- !u!4 &2714811465040346479 stripped

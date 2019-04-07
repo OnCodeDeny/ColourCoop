@@ -40,6 +40,7 @@ public class Doors : MonoBehaviour
             wallColour.color = new Color(1, 0.3254f, 0.3254f, 1);
             GameObject newPartical = Instantiate(particalPrefab, gameObject.transform);
             DestroyTimer.DestroyOnTime(newPartical, 3f);
+            return;
         }
         if (gameObject.layer == 10)
         {
@@ -47,6 +48,7 @@ public class Doors : MonoBehaviour
             wallColour.color = new Color(0.3515f, 0.3254f, 1, 1);
             GameObject newPartical = Instantiate(particalPrefab, gameObject.transform);
             DestroyTimer.DestroyOnTime(newPartical, 3f);
+            return;
         }
     }
 }

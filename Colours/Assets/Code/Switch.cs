@@ -30,8 +30,11 @@ public class Switch : MonoBehaviour
     {
         if ((other.gameObject.tag == "Player1" && Input.GetButtonDown("P1Teleport")) || (other.gameObject.tag == "Player2" && Input.GetButtonDown("P2Teleport")))
         {
-            wall.GetComponent<Doors>().SwapColours();
-            StartCoroutine(FlashColours());
+            if (timer == 0)
+            {
+                wall.GetComponent<Doors>().SwapColours();
+                StartCoroutine(FlashColours());
+            }
         }
 
     }
@@ -39,13 +42,14 @@ public class Switch : MonoBehaviour
     IEnumerator FlashColours()
     {
         //rend.color = enabledColor;
-        timer = 0;
+
         while(timer < lerpTimer)
         {
             timer += Time.deltaTime;
             rend.color = Color.Lerp(enabledColor, startColor, (timer/lerpTimer));
             yield return null;
         }
+        timer = 0;
         //rend.color = startColor;
     }
 }
