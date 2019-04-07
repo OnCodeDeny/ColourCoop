@@ -85,15 +85,15 @@ public class CameraFollow : MonoBehaviour
         transform.position = new Vector3(Mathf.Clamp(focusPostion.x, levelArea.left + 3.5f, levelArea.right - 3.5f), Mathf.Clamp(focusPostion.y, levelArea.bottom + 5f, levelArea.top - 5f ), -10);
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = new Color(0, 0, 1, 0.5f);
-        Gizmos.DrawCube(focusArea.center, focusAreaSize);
-        Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)levelArea.bottomLeftCorner);
-        Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)levelArea.bottomLeftCorner);
-        Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)levelArea.topRightCorner);
-        Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)levelArea.topRightCorner);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = new Color(0, 0, 1, 0.5f);
+    //    Gizmos.DrawCube(focusArea.center, focusAreaSize);
+    //    Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)levelArea.bottomLeftCorner);
+    //    Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)levelArea.bottomLeftCorner);
+    //    Gizmos.DrawLine((Vector3)levelArea.bottomRightCorner, (Vector3)levelArea.topRightCorner);
+    //    Gizmos.DrawLine((Vector3)levelArea.topLeftCorner, (Vector3)levelArea.topRightCorner);
+    //}
 
     struct FocusArea
     {

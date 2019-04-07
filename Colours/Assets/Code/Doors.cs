@@ -41,7 +41,7 @@ public class Doors : MonoBehaviour
             GameObject newPartical = Instantiate(particalPrefab, gameObject.transform);
             DestroyTimer.DestroyOnTime(newPartical, 3f);
         }
-        else if (gameObject.layer == 10)
+        if (gameObject.layer == 10)
         {
             gameObject.layer = 11;
             wallColour.color = new Color(0.3515f, 0.3254f, 1, 1);
