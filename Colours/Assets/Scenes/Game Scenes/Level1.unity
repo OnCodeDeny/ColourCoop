@@ -255,7 +255,8 @@ PrefabInstance:
     - target: {fileID: 3944173782082348200, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: message
-      value: "Once both players are \nin their respective zones, \npress 'g' to progress"
+      value: "You will be teleported \nto the next level\nonce both players are  \nin
+        their respective zones."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68f51dd2087797c4ba4cc115efdc4c46, type: 3}
@@ -417,7 +418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &669953525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1908,7 +1909,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3655144832091645485, guid: 9b73e85ecc80ecf4aa27ed9fa505155f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b73e85ecc80ecf4aa27ed9fa505155f, type: 3}
 --- !u!1001 &4831214729552687821
 PrefabInstance:

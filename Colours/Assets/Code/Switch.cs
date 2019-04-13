@@ -36,7 +36,6 @@ public class Switch : MonoBehaviour
                 StartCoroutine(FlashColours());
             }
         }
-
     }
 
     IEnumerator FlashColours()
