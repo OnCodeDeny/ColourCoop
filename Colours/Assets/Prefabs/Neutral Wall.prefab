@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 908376412775225204}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -2.15, y: 3.13, z: -9.829506}
-  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.2, z: 1}
   m_Children:
   - {fileID: 4682483400442332095}
   - {fileID: 2606154344351480186}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_Size: {x: 1.2, y: 0.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &3028519588310980138
@@ -173,11 +173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5507164668221626743}
     m_Modifications:
-    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Wall (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 842098276128810092, guid: ef9d52371cab8a641bf7b3a5d966352e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -242,6 +237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Wall (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d52371cab8a641bf7b3a5d966352e, type: 3}
