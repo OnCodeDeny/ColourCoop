@@ -1796,9 +1796,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: This is insane! Let us go already!
+  storyText: Just how many tests are there? How long are you going to force us to
+    do this?
   description: 
-  character: {fileID: 1879885141}
+  character: {fileID: 520574542}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1876,7 +1877,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1028793244}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1028793243}
   variables: []
   description: 
   stepPause: 0
@@ -1925,7 +1927,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793237
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1946,7 +1948,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793238
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1967,7 +1969,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1988,7 +1990,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793240
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2009,7 +2011,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1028793241
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2021,7 +2023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: Plotting right in front of me? How bold. It's time for the next test.
+  storyText: That's quite enough of that. Go.
   description: 
   character: {fileID: 1905393300}
   portrait: {fileID: 0}
@@ -2036,7 +2038,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793242
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2077,7 +2079,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Level3
+    stringVal: Level4
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1028793244
@@ -2108,7 +2110,7 @@ MonoBehaviour:
   - {fileID: 1028793243}
 --- !u!114 &1028793245
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2120,9 +2122,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: We're getting out of here. Meet me at the center of the room.
+  storyText: '...I have an idea.'
   description: 
-  character: {fileID: 1879885141}
+  character: {fileID: 520574542}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2135,7 +2137,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793246
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2162,7 +2164,7 @@ MonoBehaviour:
   - {fileID: 1028793239}
 --- !u!114 &1028793247
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2174,9 +2176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: They're not going to listen. We're on our own here.
+  storyText: I can't keep doing this...
   description: 
-  character: {fileID: 520574542}
+  character: {fileID: 1879885141}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2189,7 +2191,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793248
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2216,7 +2218,7 @@ MonoBehaviour:
   - {fileID: 1028793238}
 --- !u!114 &1028793249
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2228,7 +2230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: I'm afraid I can't do that.
+  storyText: You don't require access to that information. Don't worry, you're doing
+    excellently.
   description: 
   character: {fileID: 1905393300}
   portrait: {fileID: 0}
@@ -2243,7 +2246,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1028793250
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
