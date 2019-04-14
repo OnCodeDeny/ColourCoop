@@ -70,11 +70,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 152c7af5c03a1d54883353626c124a83, type: 3}
-  m_Color: {r: 0.3515083, g: 0.32549024, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 183c24ed022d53449b4699d20255f3f7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 1
+  m_DrawMode: 0
   m_Size: {x: 1.2, y: 0.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -95,6 +95,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorid: 1
   playerTag: 
+  blueDoor: {fileID: 0}
+  redDoor: {fileID: 0}
   particalPrefab: {fileID: 4303299579614344725, guid: 238f3bcf99b435a4f826b23be0e6c613,
     type: 3}
 --- !u!61 &3853445636267654000
@@ -110,16 +112,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0035637617, y: -0.00000011920929}
   m_SpriteTilingProperty:
-    border: {x: 0.41, y: 0.04, z: 0.41, w: 0.04}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.36, y: 1.18}
+    oldSize: {x: 6.64, y: 1.76}
     newSize: {x: 1.2, y: 0.2}
     adaptiveTilingThreshold: 0.5
-    drawMode: 1
+    drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.17, y: 0.17}
+  m_Size: {x: 6.4385214, y: 1.5767093}
   m_EdgeRadius: 0

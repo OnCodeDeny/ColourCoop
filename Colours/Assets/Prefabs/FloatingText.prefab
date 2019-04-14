@@ -79,7 +79,7 @@ TextMesh:
   m_GameObject: {fileID: 5406933516609954361}
   m_Text: "Blue, press 'f' \nwhile on a switch\nto activate/deactivate walls."
   m_OffsetZ: 0
-  m_CharacterSize: 1.1
+  m_CharacterSize: 1.2
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -90,4 +90,4 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 60935d7178209fa4c9145400d7f5a352, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4286382142
