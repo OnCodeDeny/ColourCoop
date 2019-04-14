@@ -330,7 +330,7 @@ PrefabInstance:
     - target: {fileID: 3944173782082348200, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: message
-      value: "Red, press 'p' \nwhile on a switch\nto activate/deactivate walls."
+      value: "Red, press '/' \nwhile on a switch\nto activate/deactivate walls."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68f51dd2087797c4ba4cc115efdc4c46, type: 3}
@@ -701,6 +701,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.41
+      objectReference: {fileID: 0}
     - target: {fileID: 5859036067681085059, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -715,11 +720,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc12df037e7c84dafe6dd5f138ceb8, type: 3}

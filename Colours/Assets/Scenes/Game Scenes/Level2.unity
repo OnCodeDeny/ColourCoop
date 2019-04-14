@@ -937,6 +937,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.682
       objectReference: {fileID: 0}
+    - target: {fileID: 3257323638900772552, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3257323639093020823, guid: 6245803a8144c304792c814296b528a7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
     - target: {fileID: 3257323639093020826, guid: 6245803a8144c304792c814296b528a7,
         type: 3}
       propertyPath: m_Color.r
@@ -951,16 +961,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257323638900772552, guid: 6245803a8144c304792c814296b528a7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Teleporter
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257323639093020823, guid: 6245803a8144c304792c814296b528a7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Teleporter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6245803a8144c304792c814296b528a7, type: 3}
@@ -1284,6 +1284,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5859036067681085059, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1293,11 +1298,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 4.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc12df037e7c84dafe6dd5f138ceb8, type: 3}
@@ -1475,7 +1475,7 @@ PrefabInstance:
     - target: {fileID: 3944173782082348200, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: message
-      value: "Red, press 'p' \nto teleport"
+      value: "Red, press '/' \nto teleport"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68f51dd2087797c4ba4cc115efdc4c46, type: 3}
