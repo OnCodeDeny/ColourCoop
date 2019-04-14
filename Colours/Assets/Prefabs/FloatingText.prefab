@@ -79,7 +79,7 @@ TextMesh:
   m_GameObject: {fileID: 5406933516609954361}
   m_Text: "Blue, press 'f' \nwhile on a switch\nto activate/deactivate walls."
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.1
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
