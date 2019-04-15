@@ -7,16 +7,26 @@ public class GoalManager : MonoBehaviour
 {
     public Goal redGoal;
     public Goal blueGoal;
+    public bool allGoalReached;
     public string SceneName;
+
+    private void Start()
+    {
+        allGoalReached = false;
+    }
 
     private void Update()
     {
-        GoalCheck();    
+        if (!allGoalReached)
+        {
+            GoalCheck();
+        }
     }
     void GoalCheck()
     {
         if (redGoal.isGoalReached == true && blueGoal.isGoalReached == true)
         {
+            allGoalReached = true;
             StartCoroutine("DelayLoadLevel");
         }
     }

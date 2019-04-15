@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4114829058702839010}
   - component: {fileID: 4114829058702839013}
   - component: {fileID: 4114829058702839015}
+  - component: {fileID: 4114829058702839014}
   - component: {fileID: 4114829058702839008}
   - component: {fileID: 7489961713217928479}
-  - component: {fileID: 4114829058702839014}
   m_Layer: 8
   m_Name: Red Circle
   m_TagString: Player1
@@ -121,6 +121,19 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4114829058702839014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114829058702839011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0229780e64fdc4ca31e6ed8149f5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerid: 1
 --- !u!114 &4114829058702839008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,16 +165,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrabbing: 0
   carryStuff: {fileID: 0}
---- !u!114 &4114829058702839014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4114829058702839011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b0229780e64fdc4ca31e6ed8149f5e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerid: 1
