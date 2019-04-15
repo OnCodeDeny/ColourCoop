@@ -542,6 +542,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 545534558}
     m_Modifications:
+    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 842098276128810092, guid: ef9d52371cab8a641bf7b3a5d966352e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -601,11 +606,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d52371cab8a641bf7b3a5d966352e, type: 3}
@@ -1565,6 +1565,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 545534558}
     m_Modifications:
+    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Wall (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 842098276128810092, guid: ef9d52371cab8a641bf7b3a5d966352e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1624,11 +1629,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Wall (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d52371cab8a641bf7b3a5d966352e, type: 3}
@@ -2091,11 +2091,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -17.09
-      objectReference: {fileID: 0}
     - target: {fileID: 5859036067681085059, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2110,6 +2105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.09
       objectReference: {fileID: 0}
     - target: {fileID: 5859036067438988269, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
@@ -2313,10 +2313,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339788869}
     m_Modifications:
+    - target: {fileID: 3944173782082348214, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Name
+      value: Proxemitiy Pop up Text
+      objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.0914965
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
@@ -2326,27 +2331,22 @@ PrefabInstance:
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.61707246
+      value: -4.23
       objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Size.x
       value: 5.9341164
       objectReference: {fileID: 0}
-    - target: {fileID: 3944173782082348214, guid: 68f51dd2087797c4ba4cc115efdc4c46,
-        type: 3}
-      propertyPath: m_Name
-      value: Proxemitiy Pop up Text
-      objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.086
+      value: 4.83
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.174
+      value: 2.28
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
@@ -3327,10 +3327,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2127350373}
     m_Modifications:
+    - target: {fileID: 3944173782082348214, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Name
+      value: Proxemitiy Pop up Text
+      objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.9777615
+      value: 3.89
       objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
@@ -3340,22 +3345,17 @@ PrefabInstance:
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Offset.y
-      value: -1.0134649
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_Size.y
       value: 7.491909
       objectReference: {fileID: 0}
-    - target: {fileID: 3944173782082348214, guid: 68f51dd2087797c4ba4cc115efdc4c46,
-        type: 3}
-      propertyPath: m_Name
-      value: Proxemitiy Pop up Text
-      objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.032999992
+      value: -4.96
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}

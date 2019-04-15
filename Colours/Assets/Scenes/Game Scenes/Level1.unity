@@ -303,11 +303,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Radius
       value: 1.99
@@ -317,6 +312,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Proxemitiy Pop up Text
       objectReference: {fileID: 0}
+    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -325,7 +330,7 @@ PrefabInstance:
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.79
+      value: -5.33
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
@@ -392,10 +397,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Proxemitiy Pop up Text
       objectReference: {fileID: 0}
+    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 2.36
+      objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.14
+      value: -2.4
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
@@ -1216,15 +1226,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4199652696076362539, guid: 5cee20500b1db0b438bf038323f04fd1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2714811464635060087, guid: 5cee20500b1db0b438bf038323f04fd1,
         type: 3}
       propertyPath: m_Name
       value: Switch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4199652696076362539, guid: 5cee20500b1db0b438bf038323f04fd1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2714811464635060082, guid: 5cee20500b1db0b438bf038323f04fd1,
         type: 3}
@@ -1493,6 +1503,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 545534558}
     m_Modifications:
+    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 842098276128810092, guid: ef9d52371cab8a641bf7b3a5d966352e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1557,11 +1572,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 842098276128810088, guid: ef9d52371cab8a641bf7b3a5d966352e,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d52371cab8a641bf7b3a5d966352e, type: 3}
@@ -1819,15 +1829,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4199652696076362539, guid: 5cee20500b1db0b438bf038323f04fd1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2714811464635060087, guid: 5cee20500b1db0b438bf038323f04fd1,
         type: 3}
       propertyPath: m_Name
       value: Switch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4199652696076362539, guid: 5cee20500b1db0b438bf038323f04fd1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2714811464635060082, guid: 5cee20500b1db0b438bf038323f04fd1,
         type: 3}
@@ -2062,15 +2072,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Proxemitiy Pop up Text
       objectReference: {fileID: 0}
+    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2365725924854882717, guid: 68f51dd2087797c4ba4cc115efdc4c46,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -2.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.14
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.18
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 3944173782082348201, guid: 68f51dd2087797c4ba4cc115efdc4c46,
         type: 3}

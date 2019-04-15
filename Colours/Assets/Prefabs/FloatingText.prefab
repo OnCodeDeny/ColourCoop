@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8090430729359692089}
   - component: {fileID: 2747352927677530489}
   - component: {fileID: 4109319890183555307}
+  - component: {fileID: 2656625445200482637}
   m_Layer: 0
   m_Name: FloatingText
   m_TagString: Untagged
@@ -78,16 +79,31 @@ TextMesh:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5406933516609954361}
   m_Text: "Blue, press 'f' \nwhile on a switch\nto activate/deactivate walls."
-  m_OffsetZ: 0
-  m_CharacterSize: 1.2
+  m_OffsetZ: -30
+  m_CharacterSize: 0.76
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 31
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 60935d7178209fa4c9145400d7f5a352, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4286382142
+    rgba: 4294967295
+--- !u!114 &2656625445200482637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406933516609954361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
