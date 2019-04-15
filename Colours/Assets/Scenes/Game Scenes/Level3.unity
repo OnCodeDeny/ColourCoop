@@ -644,7 +644,7 @@ PrefabInstance:
     - target: {fileID: 1588210216001604604, guid: 10388050b17043b4f8c8de7c88a10186,
         type: 3}
       propertyPath: SceneName
-      value: 
+      value: storycutscene4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10388050b17043b4f8c8de7c88a10186, type: 3}

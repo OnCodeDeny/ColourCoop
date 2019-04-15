@@ -979,7 +979,8 @@ MonoBehaviour:
   nameText: Red
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: fafac6ba1e271104dad7f4ee4222ed41, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1904152493}
   description: 
@@ -1800,7 +1801,7 @@ MonoBehaviour:
   storyText: Did...did it work...?
   description: 
   character: {fileID: 1879885141}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e9b0858e425f60b44a34d947f71ede1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1877,9 +1878,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1028793242}
-  selectedCommands:
-  - {fileID: 1028793241}
+  - {fileID: 1028793244}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   storyText: '...Come on, Red. Let''s go home...'
   description: 
   character: {fileID: 1879885141}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e9b0858e425f60b44a34d947f71ede1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   storyText: We're out!
   description: 
   character: {fileID: 520574542}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: fafac6ba1e271104dad7f4ee4222ed41, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2180,7 +2180,7 @@ MonoBehaviour:
   storyText: Look! The speaker's gone! Which must mean...
   description: 
   character: {fileID: 1879885141}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e9b0858e425f60b44a34d947f71ede1c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   storyText: I'm not sure...where are we now...?
   description: 
   character: {fileID: 520574542}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: fafac6ba1e271104dad7f4ee4222ed41, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3202,7 +3202,8 @@ MonoBehaviour:
   nameText: Blue
   nameColor: {r: 0.03901863, g: 0, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: e9b0858e425f60b44a34d947f71ede1c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 306688279}
   description: 
@@ -3545,7 +3546,8 @@ MonoBehaviour:
   nameText: Voice
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: d0feeb36cfc20204fbb46f1f7fb632da, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1586921497}
   description: 
