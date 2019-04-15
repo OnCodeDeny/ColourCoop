@@ -617,16 +617,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.44
-      objectReference: {fileID: 0}
     - target: {fileID: 5859036067681085059, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -641,6 +631,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859036067981633545, guid: cabc12df037e7c84dafe6dd5f138ceb8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 5859036067438988269, guid: cabc12df037e7c84dafe6dd5f138ceb8,
         type: 3}
@@ -2405,6 +2405,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9a8fb998081a0f43a97b96a2ffcc6ff, type: 3}
+--- !u!114 &1418032442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7838949559328880750, guid: a9a8fb998081a0f43a97b96a2ffcc6ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1418032441}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b404f58fb63434fa6fbf39f550599c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1434469864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3108,6 +3120,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76197e0b20753164d9506d7df35f06e0, type: 3}
+--- !u!114 &1865718478 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5558848655417934203, guid: 76197e0b20753164d9506d7df35f06e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865718477}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b404f58fb63434fa6fbf39f550599c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1867675167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3412,6 +3436,16 @@ PrefabInstance:
       propertyPath: SceneName
       value: Storycutscene5
       objectReference: {fileID: 0}
+    - target: {fileID: 1588210216001604604, guid: 10388050b17043b4f8c8de7c88a10186,
+        type: 3}
+      propertyPath: blueGoal
+      value: 
+      objectReference: {fileID: 1865718478}
+    - target: {fileID: 1588210216001604604, guid: 10388050b17043b4f8c8de7c88a10186,
+        type: 3}
+      propertyPath: redGoal
+      value: 
+      objectReference: {fileID: 1418032442}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10388050b17043b4f8c8de7c88a10186, type: 3}
 --- !u!1001 &986870039734270965
@@ -3645,11 +3679,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.20000012
       objectReference: {fileID: 0}
-    - target: {fileID: 4448677447934256229, guid: feb33c8f3ce64ec4c9283861a1ef437c,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2606154344351480187, guid: feb33c8f3ce64ec4c9283861a1ef437c,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3659,6 +3688,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448677447934256229, guid: feb33c8f3ce64ec4c9283861a1ef437c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: feb33c8f3ce64ec4c9283861a1ef437c, type: 3}
