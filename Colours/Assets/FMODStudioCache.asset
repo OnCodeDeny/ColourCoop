@@ -61,11 +61,12 @@ MonoBehaviour:
   - {fileID: 114904858146771996}
   - {fileID: 114515213108261820}
   - {fileID: 114591019332813200}
+  - {fileID: 114126888450204268}
   MasterBanks:
   - {fileID: 114368773923508710}
   StringsBanks:
   - {fileID: 114040669579116248}
-  stringsBankWriteTime: 636908962430793852
+  stringsBankWriteTime: 636908999084669015
   cacheVersion: 3
 --- !u!114 &114007085962502658
 MonoBehaviour:
@@ -149,11 +150,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Colours\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636908962430793852
+  lastModified: 636908999084669015
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2440
+    Value: 2480
   Exists: 1
 --- !u!114 &114090580240333824
 MonoBehaviour:
@@ -246,6 +247,29 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+  Length: 2000
+--- !u!114 &114126888450204268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Dragging
+  guid: 22cec2899515d343932a5997ee3938c4
+  Banks:
+  - {fileID: 114368773923508710}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 2000
 --- !u!114 &114153147580082260
 MonoBehaviour:
@@ -671,11 +695,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\sterlile\Documents\GitHub\ColorCoop\Colours\Colours\Build\Desktop\Master
     Bank.bank
-  lastModified: 636908962430714203
+  lastModified: 636908999084619229
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 4394368
+    Value: 4519232
   Exists: 1
 --- !u!114 &114431449921264300
 MonoBehaviour:
