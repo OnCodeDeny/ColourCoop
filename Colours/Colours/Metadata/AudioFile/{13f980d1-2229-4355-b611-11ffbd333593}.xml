@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{13f980d1-2229-4355-b611-11ffbd333593}">
+        <property name="assetPath">
+            <value>Drag.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>12.125351473922903</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c658ee06-3429-4eca-a1aa-e707d0d5bb48}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -30,6 +30,7 @@ public class Switch : MonoBehaviour
     {
         if ((other.gameObject.tag == "Player1" && Input.GetButtonDown("P1Teleport")) || (other.gameObject.tag == "Player2" && Input.GetButtonDown("P2Teleport")))
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Switch");
             if (timer == 0)
             {
                 wall.GetComponent<Doors>().SwapColours();

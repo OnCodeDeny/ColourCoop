@@ -8,23 +8,6 @@ public class PlayerGrab : MonoBehaviour
     public bool isGrabbing;
     public GameObject carryStuff;
 
-    /*public bool canGrab;
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Teleporter")
-        {
-            canGrab = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Teleporter")
-        {
-            canGrab = false;
-        }
-    }*/
-
     private void Start()
     {
         if (gameObject.tag == "Player1")
@@ -58,6 +41,7 @@ public class PlayerGrab : MonoBehaviour
             {
                 isGrabbing = true;
                 carryStuff = collision.gameObject;
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Dragging");
             }
         }
     }

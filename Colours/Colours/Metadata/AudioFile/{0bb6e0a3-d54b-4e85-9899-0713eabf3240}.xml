@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{0bb6e0a3-d54b-4e85-9899-0713eabf3240}">
+        <property name="assetPath">
+            <value>Keyboard2.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>10.692833333333333</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c658ee06-3429-4eca-a1aa-e707d0d5bb48}</destination>
+        </relationship>
+    </object>
+</objects>
