@@ -58,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         float accel = inputDirection.sqrMagnitude > 0 ? acceleration : decelleration;
         rb.velocity = Vector3.Lerp(rb.velocity, inputDirection * speed, Time.fixedDeltaTime * accel);
 
+        /*
         if (inputDirection.sqrMagnitude > 0)
         {
             //Vector3 oldEulerAngles = transform.eulerAngles;
@@ -66,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             eulerAngles.y = transform.eulerAngles.y;
             //transform.eulerAngles = oldEulerAngles;
         }
-
+        */
     }
 
     private void Update()
