@@ -57,12 +57,12 @@ MonoBehaviour:
   - {fileID: 114679192026962744}
   - {fileID: 114446318355793356}
   - {fileID: 114616366514623522}
-  - {fileID: 114867155898891302}
+  - {fileID: 114563847753850272}
   MasterBanks:
   - {fileID: 114368773923508710}
   StringsBanks:
   - {fileID: 114040669579116248}
-  stringsBankWriteTime: 636908921553311896
+  stringsBankWriteTime: 636908926342799259
   cacheVersion: 3
 --- !u!114 &114007085962502658
 MonoBehaviour:
@@ -146,11 +146,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Colours\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636908921553311896
+  lastModified: 636908926342799259
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2302
+    Value: 2312
   Exists: 1
 --- !u!114 &114090580240333824
 MonoBehaviour:
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\sterlile\Documents\GitHub\ColorCoop\Colours\Colours\Build\Desktop\Master
     Bank.bank
-  lastModified: 636908921553262118
+  lastModified: 636908926342729350
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -900,6 +900,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &114563847753850272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MouseOver
+  guid: 54c6b0ca4e5f25488d06c328a3d27df0
+  Banks:
+  - {fileID: 114368773923508710}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 104
 --- !u!114 &114592423988987016
 MonoBehaviour:
   m_ObjectHideFlags: 0

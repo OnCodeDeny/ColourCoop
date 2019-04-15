@@ -6,6 +6,6 @@ public class UISound : MonoBehaviour
 {
     public void OnMouseEnter()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/UI Button");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/MouseOver");
     }
 }
