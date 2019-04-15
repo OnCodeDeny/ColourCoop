@@ -60,20 +60,21 @@ public class PlayerMovement : MonoBehaviour
 
         if (inputDirection.sqrMagnitude > 0)
         {
-            Vector3 oldEulerAngles = transform.eulerAngles;
+            //Vector3 oldEulerAngles = transform.eulerAngles;
             Vector3 lookAtTransform = new Vector3(transform.position.x + inputDirection.x, 0, transform.position.y + inputDirection.y);
             transform.LookAt(lookAtTransform);
             eulerAngles.y = transform.eulerAngles.y;
-            transform.eulerAngles = oldEulerAngles;
+            //transform.eulerAngles = oldEulerAngles;
         }
+
     }
 
     private void Update()
     {
         HandleInput(false);
-        Vector3 euler = transform.eulerAngles;
-        euler.y = Mathf.LerpAngle(euler.y, eulerAngles.y, Time.deltaTime * 15f);
-        transform.eulerAngles = euler;
+        //Vector3 euler = transform.eulerAngles;
+        //euler.y = Mathf.LerpAngle(euler.y, eulerAngles.y, Time.deltaTime * 15f);
+        //transform.eulerAngles = euler;
     }
 
     public struct CollisionInfo
