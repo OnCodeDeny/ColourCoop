@@ -2674,7 +2674,7 @@ PrefabInstance:
     - target: {fileID: 42945972682360081, guid: 62ae7117192adaf4cb1bd5ec08d2d787,
         type: 3}
       propertyPath: Event
-      value: event:/Story Background Music
+      value: event:/Music/Story Background Music
       objectReference: {fileID: 0}
     - target: {fileID: 42945972682360082, guid: 62ae7117192adaf4cb1bd5ec08d2d787,
         type: 3}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UISound : MonoBehaviour
 {
-    public void OnMouseEnter()
+    public void PlayUISound()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/MouseOver");
     }
